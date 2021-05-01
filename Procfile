@@ -1,1 +1,1 @@
-web:gunicorn Al.wsgi
+web:gunicorn ALSHIHAB.wsgi
