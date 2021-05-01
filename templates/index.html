@@ -1,0 +1,508 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Al Shihab Al thahabi</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="static/image/logo1.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="static/css/vendor.bundle.css">
+	<link id="style-css" rel="stylesheet" type="text/css" href="static/css/style62ea.css?ver=1.2">
+	<style type="text/css">
+		/* Only Demo Purpose */
+		.colorPanel {margin: 0px;padding: 5px;position: fixed;z-index: 100;min-width: 20px; border-radius: 4px 0 0 4px; background-color: #4b00a0;right:0;top: 33%;display: none;} .colorPanel ul {margin:0px;padding:0px;list-style: none;display:none;} .colorPanel ul li {display: block;margin-top: 10px;} .colorPanel ul a {display: block;width: 20px;height: 20px;border: #fff 1px solid;} .colorPanel a.cart {border-bottom: 1px solid rgba(255,255,255,.3); margin-bottom: 6px; padding-bottom: 8px;display: block;} #cpToggle{display:block;height:30px; width:20px; line-height:30px; background-size:cover;}.cp-custom{padding: 12px;display: none;}.cp-custom #cpToggle{background: none;}.cp-custom i{font-size: 15px;color:#fff;}
+	</style>
+    <!-- <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-91615293-2', 'auto');
+	ga('send', 'pageview');
+	</script> -->
+</head>
+<body class="site-body style-v1">
+	<!-- Header --> 
+	<header class="site-header header-s1 is-sticky">
+		<!-- Topbar -->
+		<div class="topbar" style="background-color: #c1a225;">
+			<div class="container">
+				<div class="row">
+					<div class="top-aside top-left">
+						<h4 style="color: aliceblue;margin-top: 7%;">Welcome to Al Shihab Al Thahabi</h4>
+						<!-- <ul class="top-nav">
+							<li><a href="resources">Knowledge Centre</a></li>
+							<li><a href="careers">Career</a></li>
+							<li><a href="news">News</a></li>
+							<li><a href="contact">Contact</a></li>
+						</ul> -->
+					</div>
+					<div class="top-aside top-right clearfix">
+						<ul class="top-contact clearfix">
+							<li class="t-email t-email1">
+								<em class="fa fa-envelope-o" aria-hidden="true" style="color: aliceblue;"></em>
+								<span style="color: aliceblue;"><a href="#">sales@thahabi.ae</a></span>
+							</li>
+							<li class="t-phone t-phone1">
+								<em class="fa fa-phone" aria-hidden="true" style="color: aliceblue;"></em>
+								<span style="color: aliceblue;">+971 6 5568301</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- #end Topbar -->
+		<!-- Navbar -->
+		<div class="navbar navbar-primary">
+			<div class="container">
+				<!-- Logo -->
+				<a class="navbar-brand" href="index1">
+					<img class="logo logo-dark" alt="" src="static/image/LOGO-01-01.png" >
+					<img class="logo logo-light" alt="" src="static/image/LOGO-01-01.png" >
+				</a>
+				<!-- #end Logo -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav" aria-expanded="false">
+						<span class="sr-only">Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Q-Button for Mobile -->
+					{% comment %} <div class="quote-btn"><a class="btn" href="get-a-quote">Enquire Today</a></div> {% endcomment %}
+				</div>
+				<!-- MainNav -->
+				<nav class="navbar-collapse collapse" id="mainnav">
+					<ul class="nav navbar-nav" >
+						<li class="dropdown megamenu megamenu-short"><a href="index1">Home</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="about">About Us</a>
+							
+								</li>
+								<li class="dropdown "><a href="services">Our Products</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown"><a href="foodingredients">FOOD INGREDIENTS</a>
+										<ul class="dropdown-menu">
+											<li><a href="bakery">BAKERY & FLOUR MILLS </a></li>
+											<li><a href="meat">MEAT, POULTRY,<br> SEAFOOD & FEED</a></li>
+											<li><a href="beverages">BEVERAGES & DAIRY</a></li>
+											<li><a href="pre_mixes">PRE-MIXES, DRY-MIXES,<br> SAUCES & CULINARY </a></li>
+											<li><a href="confictionery">CONFECTIONERY & SNACKS </a></li>
+										</ul>
+									</li>
+										<li class="dropdown"><a href="chemicals">SPECIALTY CHEMICALS &<br> INDUSTRIAL RAW MATERIALS</a>
+											<ul class="dropdown-menu">
+											<li><a href="paint">PAINT, COATING, <br>INK & ADHESIVES</a></li>
+											<li><a href="construction">CONSTRUCTION CHEMICALS</a></li>
+											<li><a href="fabric_care">PERSONAL / HOME &<br> FABRIC CARE</a></li>
+											<li><a href="cleaning">INDUSTRIAL AND INSTITUTIONAL<br> CLEANING APPLICATIONS</a></li>
+											<li><a href="water">WATER TREATMENT CHEMICALS </a></li>
+											<li><a href="polymer">POLYMER CHEMICALS & <br>REFINING CATALYSTS</a></li>
+
+										</ul>
+										</li>
+										<li class="dropdown"><a href="machinery_equipment">MACHINERY AND LAB<br> EQUIPMENTS</a>
+										<ul class="dropdown-menu">
+											<li><a href="paint_coating">MACHINERY & LAB EQUIPMENT<br> FOR THE PAINT & COATINGS</a></li>
+										</ul>
+										</li>
+										
+									</ul>
+								</li>
+								<li class="dropdown"><a href="events">Events</a></li>
+								<li><a href="blog">Blog</a></li>
+									
+								<li class="dropdown"><a href="contact">Contact Us</a>
+									
+								</li>
+								
+							</ul>
+						</li>
+						
+					</ul>
+				</nav>         
+				<!-- #end MainNav -->
+			</div>
+		</div>
+		<!-- #end Navbar -->
+		<!-- Banner/Slider -->
+		<div id="slider" class="banner banner-slider carousel slide carousel-fade">
+			<!-- Wrapper for Slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<!-- Set the first background image using inline CSS below. -->
+					<div class="fill" style="background-image:url('static/image/160805-OUVG16-136.jpg');">
+						<div class="banner-content">
+							<div class="container">
+								<div class="row">
+									<div class="banner-text al-left pos-left dark">
+										<div class="animated fadeInRight">
+											<h2 class="ucap" ><strong>FOOD INGREDIENTS</strong></h2>
+											<p style="color: white;">We source our materials from the best in the business, across the world.</p>
+											<div class="banner-cta">
+												<a class="btn" href="foodingredients">Learn More</a>
+<!-- 												<a class="btn btn-alt btn-outline" href="contact">Contact Us</a>
+ -->											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<!-- Set the second background image using inline CSS below. -->
+					<div class="fill" style="background-image:url('static/image/1.jpg');">
+						<div class="banner-content">
+							<div class="container">
+								<div class="row">
+									<div class="banner-text al-left pos-left light">
+										<div class="animated fadeInRight">
+											<h2 class="ucap"><strong>SPECIALTY CHEMICALS & INDUSTRIAL RAW MATERIALS</strong></h2>
+											<p>We source our materials from the best in the business, across the world.</p>
+											<div class="banner-cta">
+												<a class="btn" href="chemicals">Learn More</a>
+<!-- 												<a class="btn btn-light btn-outline" href="contact">Contact Us</a>
+ -->											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+				<div class="item">
+					<!-- Set the third background image using inline CSS below. -->
+					<div class="fill" style="background-image:url('static/image/IMAGE 1.jpg');">
+						<div class="banner-content">
+							<div class="container">
+								<div class="row">
+									<div class="banner-text al-left pos-left light">
+										<div class="animated fadeInRight">
+											<h2 class="ucap"><strong>MACHINERY, EQUIPMENT, ENGINEERING & CONSULTANCY</strong></h2>
+											<p>We source our materials and machinery only from the best in the business; across the world.</p>
+											<div class="banner-cta">
+												<a class="btn" href="machinery_equipment">Learn More</a>
+<!-- 												<a class="btn btn-light btn-outline" href="contact">Contact Us</a>
+ -->											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#slider" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-- #end Banner/Slider -->
+	</header>
+	<!-- End Header -->
+<!-- Content -->
+	<div class="section section-about section-pad" style="padding-top: 4%;">
+		<div class="container">
+			<div class="content row">
+
+				<div class="row row-vm">
+					<div class="col-md-6 res-m-bttm">
+						<h2><span style="font-size: 155%">A</span>bout Al Shihab Al Thahabi</h2>
+						<p style="text-align: justify;">Al Shihab Al Thahabi Al Shihab Al Thahabi is a U.A.E. based company with a long pedigree of trading in the Arabian Peninsula. Our operations cover the countries of the Gulf Cooperation Council, Sudan, Ethiopia, Eritrea. </p>
+<p style="text-align: justify;">People ask about our name. In arabic the word 'Al' is the definite article meaning 'The'. 'Shihab' is an ancient Arabic word used even in the time before Islam to mean: a shooting star. And 'Thahabi, is Arabic for 'gold' and Thahabi is the adjective. In Arabic unlike English, the definite article is attached to both the noun and its modifiying adjective. And so we have: Al Shihab Al Thahabi.</p>
+<p style="text-align: justify;">We choose this name because it reflects the ancient culture of the Arab. Alone in the desert on a moonless night, he was moved by the striking speed and beauty of the shooting stars, emerging from now where in the dark, limitless, canopy of the heaven only to be inciengerated in a brilliant mometary streak of light and flame. Somewhere in one of these timeless deserts, on a night at the edge of memory, fifteen centuries ago, a poet named Labeed ibn Rabiah looked up at the night sky and voiced the words that are immortalized in Arabic literature. 
+</p>
+					</div>
+					<div class="col-md-5 col-md-offset-1">
+						<img src="static/image/BIGIMAGE.png" alt="">
+					</div>
+				</div>
+
+			</div>	
+		</div>
+	</div>
+	<!-- End content -->
+	<!-- Service Section -->
+	<div class="section section-services section-pad" style="margin-top: -86px;">
+	    <div class="container">
+	        <div class="content row">
+	        	<!-- Feature Row  -->
+				<div class="feature-row feature-service-row row">
+					<div class="col-md-4 col-sm-6 even first">
+						<!-- feature box -->
+						<div class="feature boxed" >
+							<a href="foodingredients">
+								<div class="fbox-photo" >
+									<img src="static/image/Food Ingredients (2).jpg" alt="" style="height: 246px;">
+								</div>
+							</a>
+							<div class="fbox-content">
+								<h3><a href="foodingredients">FOOD INGREDIENTS</a></h3>
+								<p style="text-align: justify;">We source our materials from the best in the business, across the world. Our technological specialists are constantly ensuring the quality of our products.
+								Whatever your requirement, Al Shihab will deliver.</p>
+								<p><a href="foodingredients" class="btn">Learn More</a></p>
+							</div>
+						</div>
+						<!-- End Feature box -->
+					</div>
+					<div class="col-md-4 col-sm-6 odd">
+						<!-- feature box -->
+						<div class="feature boxed">
+							<a href="chemicals">
+								<div class="fbox-photo">
+									<img src="static/image/speciality chemicals.png" alt="">
+								</div>
+							</a>
+							<div class="fbox-content">
+								<h3><a href="chemicals">SPECIALTY CHEMICALS & INDUSTRIAL RAW MATERIALS</a></h3>
+								<p style="text-align: justify;">We source our materials from the best in the business, across the world. Our technoligical speicialists are constantly ensuring the quality of our products. 
+
+</p>
+								<p><a href="chemicals" class="btn">Learn More</a></p>
+							</div>
+						</div>
+						<!-- End Feature box -->
+					</div>
+					<div class="col-md-4 col-sm-6 even">
+						<!-- feature box -->
+						<div class="feature boxed">
+							<a href="machinery_equipment">
+								<div class="fbox-photo">
+									<img src="static/image/Machinery & Lab Equipments.jpg" alt="" >
+								</div>
+							</a>
+							<div class="fbox-content">
+								<h3><a href="machinery_equipment">MACHINERY, EQUIPMENT, ENGINEERING & CONSULTANCY</a></h3>
+								<p style="text-align: justify;">We source our materials and machinery only from the best in the business; across the world. Our technological specialists work constantly to ensure the quality of our products.
+</p>
+								<p><a href="machinery_equipment" class="btn">Learn More</a></p>
+							</div>
+						</div>
+						<!-- End Featur box -->
+					</div>
+					
+				</div>
+				<!-- Feture Row  #end -->
+	        </div>
+	    </div>
+	</div>
+	<!-- End Section -->
+
+	<!--Content  -->
+	<!-- <div class="bg-light section-pad">
+		<div class="container">
+			<div class="content row">
+
+				<div class="wide-sm center">
+					<h1>A hight level service provider that recommended to any companies, firms or industries.</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a enim aliquam, condimentum nisl a, laoreet lectus. Aliquam convallis sed elit nec vehicula. Praesent gravida, massa sit amet ullamcorper fringilla, tortor nunc ultrices dui porttitor mi non, elementum dui.</p>
+				</div>
+
+			</div>			
+		</div>
+	</div> -->
+	<!-- End conetnt -->
+
+	
+
+	<!-- CTA-Parallax -->
+	<div class="call-action has-parallax cta-large" style="background-image: url('static/image/Al Shihab.jpg');">
+		<div class="cta-block">
+			<div class="container">
+				<div class="content row">
+
+					<div class="cta-content wide-sm center">
+						<h2><span style="font-size: 155%">O</span>ur Commitment to You</h2>
+						<p>Our team strives to make every effort to provide the best products and services to our customers at the most compeitive rates across the region. 
+
+​
+
+We aim to make professional relationships and provide world-class after-sales support to our customers. 
+
+​
+
+Give us at Al Shihab, the opportunity to grow and nurture your business and provide you with outstanding service. 
+
+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Section -->
+
+	<!-- Call Action -->
+	<!-- <div class="call-action cta-small">
+		<div class="cta-block">
+			<div class="container">
+				<div class="content row">
+
+					<div class="cta-sameline">
+						<h3>Any kind of business solution or consultation don’t hesitate to contact.</h3>
+						<a class="btn btn-light" href="contact">Contact Us</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- End Section -->
+
+	
+	
+<!--Content  -->
+	<div class="bg-light section-pad" style="padding-bottom: 0px;
+    padding-top: 8px;">
+		<div class="container">
+			<div class="content row">
+
+				<div class="wide-sm center">
+					<!-- <h1>A hight level service provider that recommended to any companies, firms or industries.</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a enim aliquam, condimentum nisl a, laoreet lectus. Aliquam convallis sed elit nec vehicula. Praesent gravida, massa sit amet ullamcorper fringilla, tortor nunc ultrices dui porttitor mi non, elementum dui.</p> -->
+				</div>
+
+			</div>			
+		</div>
+	</div>
+	<!-- End conetnt -->
+	
+
+	<!-- Footer Widget-->
+	<div class="footer-widget section-pad" style="padding-bottom: 3%;">
+		<div class="container">
+			<div class="row">
+
+				<div class="widget-row row">
+					<div class="footer-col col-md-4 col-sm-6 res-m-bttm">
+						<!-- Each Widget -->
+						<div class="wgs wgs-footer wgs-menu">
+							<img src="static/image/logo1.png" style="max-width: 45%;margin-top: -7%;"><br>
+							{% comment %} <p style="text-align: justify;">Al Shihab Al Thahabi is a U.A.E. based company with a long pedigree of trading in the Arabian Peninsula. Our operations cover the countries of the Gulf Cooperation Council, Sudan, Ethiopia & Eritrea.</p> {% endcomment %}
+							
+							<!-- <h5 class="wgs-title">Solutions</h5>
+							<div class="wgs-content">
+								<ul class="menu col-md-6 npl">
+									<li><a href="#">Mechanical Engineering</a></li>
+									<li><a href="#">Civil Engineering</a></li>
+									<li><a href="#">Chemical Research</a></li>
+									<li><a href="#">Material Science</a></li>
+									<li><a href="#">Power and Energy</a></li>
+									<li><a href="#">Oil and Gas</a></li>
+								</ul>
+								<ul class="menu col-md-6">
+									<li><a href="#">Maintainance Services</a></li>
+									<li><a href="#">Product Development</a></li>
+									<li><a href="#">Machinery &amp; Utilities</a></li>
+									<li><a href="#">Research &amp; Development</a></li>
+								</ul>
+							</div> -->
+						</div>
+						<!-- End Widget -->
+					</div>
+					<div class="footer-col col-md-3 col-sm-6 res-m-bttm" >
+						<!-- Each Widget -->
+						<div class="wgs wgs-footer wgs-menu" >
+							<h5 class="wgs-title">Quick Links</h5>
+							<div class="wgs-content">
+								<ul class="menu">
+									<li><a href="index">Home</a></li>
+									<li><a href="about">About Us</a></li>
+									<li><a href="services">Our Products</a></li>
+									<li><a href="events">Events</a></li>
+									<!-- <li><a href="responsibility">Responsibility</a></li> -->
+									<li><a href="contact">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Widget -->
+					</div>
+<!-- 					<div class="footer-col col-md-2 col-sm-6 res-m-bttm">
+ -->						<!-- Each Widget -->
+						<!-- <div class="wgs wgs-footer wgs-text">
+							<h5 class="wgs-title">Areas Serve</h5>
+							<div class="wgs-content">
+								<ul>
+									<li>USA</li>
+									<li>UK</li>
+									<li>Kuwit</li>
+									<li>Japan</li>
+									<li>South Africa</li>
+									<li>Canada</li>
+								</ul>
+							</div>
+						</div> -->
+						<!-- End Widget -->
+<!-- 					</div>
+ -->					<div class="footer-col col-md-3 col-sm-6">
+						<!-- Each Widget -->
+						<div class="wgs wgs-footer">
+							<h5 class="wgs-title">Contact us</h5>
+							<div class="wgs-content">
+								<p><strong>Office 901, Al Durrah Center</strong><br>
+									Buhairah Corniche <br>
+									Sharjah 30681</p>
+								<p><span>Phone</span>: +971 6 5568301<br>
+									<span>Fax</span>: +971 6 5568302
+									</p>
+								<ul class="social">
+									<li><a href="https://www.youtube.com/channel/UCok-JmU7tv6DTzrl8F4B4FQ"><em class="fa fa-youtube-play" aria-hidden="true"></em></a></li>
+									<li><a href="https://www.linkedin.com/company/shihab/?trk=similar-companies_org_title"><em class="fa fa-linkedin" aria-hidden="true"></em></a></li>
+									<li><a href="https://www.instagram.com/alshihab.althahabi/"><em class="fa fa-instagram" aria-hidden="true"></em></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Widget -->
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Footer Widget -->
+
+	<!-- Copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="site-copy col-sm-7">
+					<p class="mb-0" data-aos="fade-right" data-aos-offset="0">&copy; 2021 All Rights Reserved. Design by <a href="https://freehtml5.co/multipurpose" target="_blank" class="fh5-link">Colordrop</a>.</p>
+					
+ 				
+			</div>
+		</div>
+	</div>
+	<!-- End Copyright -->
+
+	<!-- Rreload Image for Slider -->
+	<div class="preload hide">
+		<img alt="" src="static/image/160805-OUVG16-136.jpg">
+		<img alt="" src="static/image/1.jpg">
+		<img alt="" src="static/image/IMAGE 1.jpg">
+	</div> 
+	<!-- End -->
+
+	<!-- Preloader !active please if you want -->
+	<!-- <div id="preloader"><div id="status">&nbsp;</div></div> -->
+	<!-- Preloader End -->
+
+	<!-- JavaScript Bundle -->
+	<script src="static/js/jquery.bundle.js"></script>
+	<!-- Theme Script init() -->
+	<script src="static/js/script.js"></script>
+	<!-- End script -->
+</body>
+
+
+</html>

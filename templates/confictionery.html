@@ -1,0 +1,573 @@
+{% load static %}
+<html lang="zxx">
+
+<head>
+	<title>Al Shihab Al thahabi</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="static/image/logo1.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="static/css/vendor.bundle.css">
+	<link id="style-css" rel="stylesheet" type="text/css" href="static/css/style62ea.css?ver=1.2">
+	<style type="text/css">
+		/* Only Demo Purpose */
+		.colorPanel {margin: 0px;padding: 5px;position: fixed;z-index: 100;min-width: 20px; border-radius: 4px 0 0 4px; background-color: #4b00a0;right:0;top: 33%;display: none;} .colorPanel ul {margin:0px;padding:0px;list-style: none;display:none;} .colorPanel ul li {display: block;margin-top: 10px;} .colorPanel ul a {display: block;width: 20px;height: 20px;border: #fff 1px solid;} .colorPanel a.cart {border-bottom: 1px solid rgba(255,255,255,.3); margin-bottom: 6px; padding-bottom: 8px;display: block;} #cpToggle{display:block;height:30px; width:20px; line-height:30px; background-size:cover;}.cp-custom{padding: 12px;display: none;}.cp-custom #cpToggle{background: none;}.cp-custom i{font-size: 15px;color:#fff;}
+	</style>
+    {% comment %} <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-91615293-2', 'auto');
+	ga('send', 'pageview');
+	</script> {% endcomment %}
+</head>
+<body class="site-body style-v1">
+	<!-- Header --> 
+	<header class="site-header header-s1 is-sticky">
+		<!-- Topbar -->
+		<div class="topbar" style="background-color: #c1a225;">
+			<div class="container">
+				<div class="row">
+					<div class="top-aside top-left">
+						<h4 style="color: aliceblue;margin-top: 7%;">Welcome to Al Shihab Al Thahabi</h4>
+						<!-- <ul class="top-nav">
+							<li><a href="resources.html">Knowledge Centre</a></li>
+							<li><a href="careers.html">Career</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul> -->
+					</div>
+					<div class="top-aside top-right clearfix">
+						<ul class="top-contact clearfix">
+							<li class="t-email t-email1">
+								<em class="fa fa-envelope-o" aria-hidden="true" style="color: aliceblue;"></em>
+								<span style="color: aliceblue;"><a href="#">sales@thahabi.ae</a></span>
+							</li>
+							<li class="t-phone t-phone1">
+								<em class="fa fa-phone" aria-hidden="true" style="color: aliceblue;"></em>
+								<span style="color: aliceblue;">+971 6 5568301</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- #end Topbar -->
+		<!-- Navbar -->
+		<div class="navbar navbar-primary">
+			<div class="container">
+				<!-- Logo -->
+				<a class="navbar-brand" href="index1">
+					<img class="logo logo-dark" alt="" src="static/image/LOGO-01-01.png" >
+					<img class="logo logo-light" alt="" src="static/image/LOGO-01-01.png" >
+				</a>
+				<!-- #end Logo -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav" aria-expanded="false">
+						<span class="sr-only">Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+				</div>
+				<!-- MainNav -->
+				<nav class="navbar-collapse collapse" id="mainnav">
+					<ul class="nav navbar-nav" >
+						<li class="dropdown megamenu megamenu-short"><a href="index1">Home</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="about">About Us</a>
+							
+								</li>
+								<li class="dropdown "><a href="services">Our Products</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown"><a href="foodingredients">FOOD INGREDIENTS</a>
+										<ul class="dropdown-menu">
+											<li><a href="bakery">BAKERY & FLOUR MILLS </a></li>
+											<li><a href="meat">MEAT, POULTRY,<br> SEAFOOD & FEED</a></li>
+											<li><a href="beverages">BEVERAGES & DAIRY</a></li>
+											<li><a href="pre_mixes">PRE-MIXES, DRY-MIXES,<br> SAUCES & CULINARY </a></li>
+											<li><a href="confictionery">CONFECTIONERY & SNACKS </a></li>
+										</ul>
+									</li>
+										<li class="dropdown"><a href="chemicals">SPECIALTY CHEMICALS &<br> INDUSTRIAL RAW MATERIALS</a>
+											<ul class="dropdown-menu">
+											<li><a href="paint">PAINT, COATING, <br>INK & ADHESIVES</a></li>
+											<li><a href="construction">CONSTRUCTION CHEMICALS</a></li>
+											<li><a href="fabric_care">PERSONAL / HOME &<br> FABRIC CARE</a></li>
+											<li><a href="cleaning">INDUSTRIAL AND INSTITUTIONAL<br> CLEANING APPLICATIONS</a></li>
+											<li><a href="water">WATER TREATMENT CHEMICALS </a></li>
+											<li><a href="polymer">POLYMER CHEMICALS & <br>REFINING CATALYSTS</a></li>
+
+										</ul>
+										</li>
+										<li class="dropdown"><a href="machinery_equipment">MACHINERY AND LAB<br> EQUIPMENTS</a>
+										<ul class="dropdown-menu">
+											<li><a href="paint_coating">MACHINERY & LAB EQUIPMENT<br> FOR THE PAINT & COATINGS</a></li>
+										</ul>
+										</li>
+										
+									</ul>
+								</li>
+								<li class="dropdown"><a href="events">Events</a></li>
+								<li><a href="blog">Blog</a></li>
+									
+								<li class="dropdown"><a href="contact">Contact Us</a>
+									
+								</li>
+								
+							</ul>
+						</li>
+						
+					</ul>
+				</nav>         
+				<!-- #end MainNav -->
+			</div>
+		</div>
+		<!-- #end Navbar -->
+		<!-- Banner -->
+		<div class="banner banner-static">
+			<div class="container">
+				<div class="content row">
+					
+					<div class="imagebg">
+						<img src="static/image/IMAGE 9.jpg" alt="">
+					</div>
+					{% comment %} <div class="banner-text">
+						<h1 class="page-title">CONFECTIONERY & SNACKS </h1>
+						<p class="page-breadcrumb">HOME / <span class="current">FOOD INGREDIENTS</span> / CONFECTIONERY & SNACKS </p>
+					</div> {% endcomment %}
+				</div>
+			</div>
+		</div>
+		<!-- End Banner -->
+	</header>
+	<!-- End Header -->
+	
+	<!-- Content -->
+	<div class="section section-contents section-products section-pad">
+	    <div class="container">
+	        <div class="content row">
+				
+		        	<div class="wide-md center">
+						<h1>CONFECTIONERY & SNACKS </h1>
+					</div>
+					<div class="gallery gallery-products with-caption hover-fade center mgfix">
+						<ul class="photos-list col-x3">
+							<li>
+								<div class="photo">
+									<img src="static/image/photo-1461009312844-e80697a81cc7.jpg" alt="" style="height: 194px;" >
+									<!-- <div class="photo-link">
+										<span class="links">
+											<a class="btn more-link" href="product-single.html">View Product</a>
+										</span>
+									</div> -->
+								</div>
+								<!-- <div class="photo-caption">
+									<a href="product-single.html">
+										<h4>Meat</h4>
+									</a>
+								</div> -->
+							</li>
+							<li>
+								<div class="photo">
+									<img src="static/image/photo-1461648704997-bc28bf991386.jpg" alt="" style="height: 194px;">
+									<!-- <div class="photo-link">
+										<span class="links">
+											<a class="btn more-link" href="product-single.html">View Product</a>
+										</span>
+									</div> -->
+								</div>
+								<!-- <div class="photo-caption">
+									<a href="product-single.html">
+										<h4>SeaFood</h4>
+									</a>
+								</div> -->
+							</li>
+							<li>
+								<div class="photo">
+									<img src="static/image/quark-tart-2549453_1920.jpg" alt="" style="height: 194px;">
+									<!-- <div class="photo-link">
+										<span class="links">
+											<a class="btn more-link" href="product-single.html">View Product</a>
+										</span>
+									</div> -->
+								</div>
+								<!-- <div class="photo-caption">
+									<a href="product-single.html">
+										<h4>Poultry</h4>
+									</a>
+								</div> -->
+							</li>
+						</ul>
+					</div>
+					<!-- End Products -->
+	        </div>
+	    </div>
+	<div class="section section-content content-section section-pad ">
+					
+					<!-- <div class="content-section bg-light"> -->
+					<div class="container">
+
+					<h3 class="heading-section with-line" style="
+					font-size: 1.5em;">Product Offering And Applications </h3>
+					
+					<div class="row"> 
+						<div class="col-md-6 col-sm-12 res-m-bttm">
+							<!-- Accordion -->
+							<div class="panel-group accordion filled" id="general" role="tablist" aria-multiselectable="true">
+								<!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="accordion-i15">
+							            <h4 class="panel-title">
+							                <a class="active" role="button" data-toggle="collapse" data-parent="#another" href="#accordion-pane-i15" aria-expanded="true">
+							                    Soya Lecithin
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="accordion-pane-i15" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="accordion-i15">
+							            <div class="panel-body">
+							            	
+											<ul class="list-style arrow">
+												<li> Additives/ Emulsifier</li>
+											</ul>
+							               
+							            </div>
+							        </div>
+							    </div> 
+								<!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="ques-i1">
+							            <h4 class="panel-title">
+							                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#general" href="#ques-ans-i1" aria-expanded="true">
+							                    • Carrageenan
+• Alginates / PGA
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="ques-ans-i1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="ques-i1">
+							            <div class="panel-body">
+							                
+											<ul class="list-style arrow">
+												<li>Thickening agent & Emulsifier</li>
+												<li>Emulsifier/ Stabilizer, Thickening agent & Anti Caking 
+agent</li>						
+											</ul>
+							            </div>
+							        </div>
+							    </div> 
+							    <!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="accordion-i13">
+							            <h4 class="panel-title">
+							                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#general" href="#accordion-pane-i13" aria-expanded="true">
+											• Gelatin 
+• Hydrolysed Gelatin<br>
+• Gelatin Solutions
+• Collagen peptide
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="accordion-pane-i13" class="panel-collapse collapse " role="tabpanel" aria-labelledby="accordion-i13">
+							            <div class="panel-body">
+							            	
+											<ul class="list-style arrow">
+												<li>Gelling agent</li>
+												<li>Stabilizing agent</li>	
+												<li> Binding and emulsifying functionalities</li>
+												<li>For Fortification</li>				
+											</ul>
+							               
+							            </div>
+							        </div>
+							    </div> 
+								<!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="ques-i17">
+							            <h4 class="panel-title">
+							                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#general" href="#ques-ans-i17" aria-expanded="true">
+							                    • Acetylated
+• Monoglyceride
+• Diglyceride<br>
+• SSL (Sodium Stearoyl
+Lactylate)
+• Polysaccharides<br>
+• Cake Gel
+• Spray Fat
+• Cake Emulsifier
+
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="ques-ans-i17" class="panel-collapse collapse " role="tabpanel" aria-labelledby="ques-i17">
+							            <div class="panel-body">
+							                
+											<ul class="list-style arrow">
+												<li> Emulsifier</li>
+																
+											</ul>
+							            </div>
+							        </div>
+							    </div>
+							   
+							</div>
+							<!-- Accordion #end -->
+						</div>
+						<!-- Another Column -->
+						<div class="col-md-6 col-sm-12">
+							<!-- Accordion -->
+							<div class="panel-group accordion filled" id="another" role="tablist" aria-multiselectable="true">
+								<!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="accordion-i21">
+							            <h4 class="panel-title">
+							                <a class="active" role="button" data-toggle="collapse" data-parent="#another" href="#accordion-pane-i21" aria-expanded="true">
+							                  Natural Colours
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="accordion-pane-i21" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="accordion-i21">
+							            <div class="panel-body">
+							            	
+											<ul class="list-style arrow">
+												
+												<li>For attractive, appealing appetizing products</li>							
+											</ul>
+							               
+							            </div>
+							        </div>
+							    </div> 
+							    <!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="accordion-i20">
+							            <h4 class="panel-title">
+							                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#another" href="#accordion-pane-i20" aria-expanded="true">
+							                    Free Flowing Agent 
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="accordion-pane-i20" class="panel-collapse collapse " role="tabpanel" aria-labelledby="accordion-i20">
+							            <div class="panel-body">
+							            	
+											<ul class="list-style arrow">
+												<li>  Dry mixes for Premix</li>
+												<li>Anti-Caking Agent</li>
+																		
+											</ul>
+							               
+							            </div>
+							        </div>
+							    </div>
+								<!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="accordion-i16">
+							            <h4 class="panel-title">
+							                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#another" href="#accordion-pane-i16" aria-expanded="true">
+							                    • Whole Egg Powder
+• Egg Yolk Powder<br>
+• Egg Albumen Powder
+• Heat Stable Egg Yolk
+Powder 
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="accordion-pane-i16" class="panel-collapse collapse " role="tabpanel" aria-labelledby="accordion-i16">
+							            <div class="panel-body">
+							            	
+											<ul class="list-style arrow">
+												<li>Substitute for fresh eggs </li>
+												<li> To produce protein-rich food products</li>
+																		
+											</ul>
+							               
+							            </div>
+							        </div>
+							    </div>
+								
+								<!-- each panel for accordion -->
+							    <div class="panel panel-default">
+							        <div class="panel-heading" role="tab" id="accordion-i18">
+							            <h4 class="panel-title">
+							                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#another" href="#accordion-pane-i18" aria-expanded="false">
+							                    Starches (Corn Starch, 
+Potato Starch & Tapioca 
+Starch)
+							                	<span class="plus-minus"><span></span></span>
+							                </a>
+							            </h4>
+							        </div>
+							        <div id="accordion-pane-i18" class="panel-collapse collapse " role="tabpanel" aria-labelledby="accordion-i18">
+							            <div class="panel-body">
+							            	
+											<ul class="list-style arrow">
+												<li>Thickening agent</li>
+												<li>Fat and water binding capacity</li>
+												<li>Visco Elasticity</li>	
+												<li> Improve rise of the raw dough</li>		
+												
+																		
+											</ul>
+							               
+							            </div>
+							        </div>
+							    </div> 
+							    
+							</div>
+							<!-- Accordion #end -->
+						</div>
+					</div>
+				
+				</div>
+
+			</div>
+			
+	</div>
+	<!-- End Content -->
+
+	<!-- Call Action -->
+<!-- 	<div class="call-action bg-primary">
+		<div class="cta-block">
+			<div class="container">
+				<div class="content row">
+
+					<div class="cta-sameline">
+						<h3>Looking an Adequate Solution for your Company?</h3>
+						<p>Contact us today for free conslutaion or more information.</p>
+						<a class="btn btn-outline" href="get-a-quote.html">Get In Touch</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- End Section -->
+
+	<!-- Footer Widget-->
+	<div class="footer-widget section-pad" style="padding-bottom: 3%;">
+		<div class="container">
+			<div class="row">
+
+				<div class="widget-row row">
+					<div class="footer-col col-md-4 col-sm-6 res-m-bttm">
+						<!-- Each Widget -->
+						<div class="wgs wgs-footer wgs-menu">
+							<img src="static/image/logo1.png" style="max-width: 45%;margin-top: -7%;"><br>
+							{% comment %} <p style="text-align: justify;">Al Shihab Al Thahabi is a U.A.E. based company with a long pedigree of trading in the Arabian Peninsula. Our operations cover the countries of the Gulf Cooperation Council, Sudan, Ethiopia & Eritrea.</p> {% endcomment %}
+							
+							<!-- <h5 class="wgs-title">Solutions</h5>
+							<div class="wgs-content">
+								<ul class="menu col-md-6 npl">
+									<li><a href="#">Mechanical Engineering</a></li>
+									<li><a href="#">Civil Engineering</a></li>
+									<li><a href="#">Chemical Research</a></li>
+									<li><a href="#">Material Science</a></li>
+									<li><a href="#">Power and Energy</a></li>
+									<li><a href="#">Oil and Gas</a></li>
+								</ul>
+								<ul class="menu col-md-6">
+									<li><a href="#">Maintainance Services</a></li>
+									<li><a href="#">Product Development</a></li>
+									<li><a href="#">Machinery &amp; Utilities</a></li>
+									<li><a href="#">Research &amp; Development</a></li>
+								</ul>
+							</div> -->
+						</div>
+						<!-- End Widget -->
+					</div>
+					<div class="footer-col col-md-3 col-sm-6 res-m-bttm" >
+						<!-- Each Widget -->
+						<div class="wgs wgs-footer wgs-menu" >
+							<h5 class="wgs-title">Quick Links</h5>
+							<div class="wgs-content">
+								<ul class="menu">
+									<li><a href="index">Home</a></li>
+									<li><a href="about">About Us</a></li>
+									<li><a href="services">Our Products</a></li>
+									<li><a href="events">Events</a></li>
+									<!-- <li><a href="responsibility">Responsibility</a></li> -->
+									<li><a href="contact">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Widget -->
+					</div>
+<!-- 					<div class="footer-col col-md-2 col-sm-6 res-m-bttm">
+ -->						<!-- Each Widget -->
+						<!-- <div class="wgs wgs-footer wgs-text">
+							<h5 class="wgs-title">Areas Serve</h5>
+							<div class="wgs-content">
+								<ul>
+									<li>USA</li>
+									<li>UK</li>
+									<li>Kuwit</li>
+									<li>Japan</li>
+									<li>South Africa</li>
+									<li>Canada</li>
+								</ul>
+							</div>
+						</div> -->
+						<!-- End Widget -->
+<!-- 					</div>
+ -->					<div class="footer-col col-md-3 col-sm-6">
+						<!-- Each Widget -->
+						<div class="wgs wgs-footer">
+							<h5 class="wgs-title">Contact us</h5>
+							<div class="wgs-content">
+								<p><strong>Office 901, Al Durrah Center</strong><br>
+									Buhairah Corniche <br>
+									Sharjah 30681</p>
+								<p><span>Phone</span>: +971 6 5568301<br>
+									<span>Fax</span>: +971 6 5568302
+									</p>
+								<ul class="social">
+									<li><a href="https://www.youtube.com/channel/UCok-JmU7tv6DTzrl8F4B4FQ"><em class="fa fa-youtube-play" aria-hidden="true"></em></a></li>
+									<li><a href="https://www.linkedin.com/company/shihab/?trk=similar-companies_org_title"><em class="fa fa-linkedin" aria-hidden="true"></em></a></li>
+									<li><a href="https://www.instagram.com/alshihab.althahabi/"><em class="fa fa-instagram" aria-hidden="true"></em></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Widget -->
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Footer Widget -->
+
+	<!-- Copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="site-copy col-sm-7">
+					<p class="mb-0" data-aos="fade-right" data-aos-offset="0">&copy; 2021 All Rights Reserved. Design by <a href="https://freehtml5.co/multipurpose" target="_blank" class="fh5-link">Colordrop</a>.</p>
+					<!-- <p>&copy; 2017 Industrial Company <span class="sep"> . </span> Licensed NI099999<span class="sep"> . </span> <a href="#">Terms and Condition</a></p>
+				</div>
+				<div class="site-by col-sm-5 al-right">
+					<p>Template Made by <a href="http://softnio.com/" target="_blank">Softnio.</a></p>
+				</div> -->
+ 				
+			</div>
+		</div>
+	</div>
+	<!-- End Copyright -->
+
+	<!-- JavaScript Bundle -->
+	<script src="static/js/jquery.bundle.js"></script>
+	<!-- Theme Script init() -->
+	<script src="static/js/script.js"></script>
+	<!-- End script -->
+</body>
+
+</html>
